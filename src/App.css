@@ -1,0 +1,36 @@
+
+body{
+    background-color: #cc7d7d;
+}
+
+
+.app-wrapper {
+    min-height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows:100px 1fr;
+    grid-template-columns: 2fr 10fr ;
+    grid-template-areas: "header header"
+                         "menu content";
+    grid-gap: 10px;
+}
+
+.mainBlock{
+
+}
+.header{
+    grid-area: header;
+    background-color: #a4ec78;
+}
+
+.menu{
+    grid-area: menu;
+    background-color: #ec9378;
+
+}
+
+.content{
+    grid-area: content;
+    background-color: #dec1b5;
+}
